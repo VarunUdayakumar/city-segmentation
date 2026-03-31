@@ -7,8 +7,8 @@ Ideation and implementation of a different approachs.
 
 | Member | Approach | Best Val mIoU |
 |---|---|---|
-| Ignia | Modified DeepLabV3+ with MobileNetV2 + FEM attention | 50.49% (baseline) |
-| Varun | TBD | - |
+| Ignia | Modified DeepLabV3+ wth MobileNetV2 + FEM attention | 50.49% (baseline) |
+| Varun | HRNetV2-W48 + OCR | 68.7% |
 | Subrajith | TBD | - |
 | Raghunandan | TBD | - |
 
@@ -16,7 +16,7 @@ Ideation and implementation of a different approachs.
 ```
 models/
 ├── ignia/          — DeepLabV3+ with custom attention
-├── Varun/          — TBD
+├── Varun/          — HRNetV2-W48 + OCR
 ├── Subrajith/      — TBD
 └── Raghunandan/    — TBD
 ```
